@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX42701927.jpg"), linear-gradient(rgba(255, 255, 255, 0.685), rgba(245, 222, 179, 0.726));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ 
+.note{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.685), rgba(245, 222, 179, 0.726));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 100%;
+}
+body h1{
+    
+    
+    width: 100%;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(8, 82, 45, 0.671);
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+
+}
+
+body h1 #pen{
+    font-size: 3rem;
+}
+
+#form{
+    
+    position: absolute;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(168, 192, 169, 0.705), 10px 10px rgb(137, 151, 137), 15px 15px rgb(137, 214, 144);;
+    
+   
+}
+
+.input{
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
+    
+}
+
+.todos{
+    border-top: 1px solid rgb(119, 114, 114);
+    background-color: white ;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.todoEI{
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;    
+}
+
+.todoEI.completed{
+    text-decoration: line-through;
+
+}
+
+.delete{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    float: right;
+}
+
+.done{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    float: left;
+    margin: 5px 5px;
+
+}
+
+/*.nav{
+    background-color: #9EC862;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.nav button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/*.main textarea{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.notes.hidden{
+    opacity: 0;
+}*/ 
